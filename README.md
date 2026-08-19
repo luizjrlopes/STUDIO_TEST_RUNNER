@@ -1,5 +1,7 @@
 # Studio Test Runner
 
+[English](README.md) | [Português](README.pt-BR.md)
+
 External conformance and regression runner for **Studio V5** distributions. It does not reimplement the Studio runtime. Instead, it inspects a materialized Studio tree, executes declarative scenarios, evaluates invariants, compares snapshots, and produces evidence-rich reports.
 
 ## Why this repository exists
