@@ -1,0 +1,14 @@
+{
+  "id": "ownership",
+  "description": "Owner boundary checks",
+  "assertions": [
+    {
+      "id": "json-valid",
+      "type": "json_files_valid"
+    },
+    {
+      "id": "owner-boundaries",
+      "type": "owner_cross_area_write"
+    }
+  ]
+}

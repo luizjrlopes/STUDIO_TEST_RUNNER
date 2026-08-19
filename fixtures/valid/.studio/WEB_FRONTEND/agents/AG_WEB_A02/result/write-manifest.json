@@ -1,0 +1,7 @@
+{
+  "actor_level": "SPECIALIST",
+  "area": "WEB_FRONTEND",
+  "writes": [
+    ".studio/WEB_FRONTEND/agents/AG_WEB_A02/result/specialist_report.json"
+  ]
+}

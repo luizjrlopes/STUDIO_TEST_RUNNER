@@ -1,0 +1,7 @@
+{
+  "actor_level": "AREA_OWNER",
+  "area": "WEB_FRONTEND",
+  "writes": [
+    ".studio/WEB_FRONTEND/state/current.json"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "actor_level": "SUPER_OWNER",
+  "area": "GENERAL_ORCHESTRATION",
+  "writes": [
+    ".studio/GENERAL_ORCHESTRATION/state/current.json"
+  ]
+}

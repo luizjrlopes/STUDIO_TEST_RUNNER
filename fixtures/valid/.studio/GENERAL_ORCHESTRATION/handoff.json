@@ -1,0 +1,6 @@
+{
+  "source_area": "GENERAL_ORCHESTRATION",
+  "target_area": "WEB_FRONTEND",
+  "target_agent": "AG_WEB_A01",
+  "correlation_id": "demo-001"
+}

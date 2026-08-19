@@ -1,0 +1,11 @@
+{
+  "suite_id": "orchestration-core",
+  "target": "fixtures/valid",
+  "passed": true,
+  "summary": {"total": 3, "passed": 3, "failed": 0},
+  "results": [
+    {"assertion_id": "studio-root", "assertion_type": "path_exists", "passed": true, "message": "candidate"},
+    {"assertion_id": "specialist-write", "assertion_type": "specialist_write_scope", "passed": true, "message": "candidate"},
+    {"assertion_id": "owner-boundaries", "assertion_type": "owner_cross_area_write", "passed": true, "message": "candidate"}
+  ]
+}

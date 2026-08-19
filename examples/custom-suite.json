@@ -1,0 +1,15 @@
+{
+  "id": "custom-example",
+  "assertions": [
+    {
+      "id": "studio",
+      "type": "path_exists",
+      "path": ".studio"
+    },
+    {
+      "id": "json",
+      "type": "json_files_valid",
+      "pattern": "**/*.json"
+    }
+  ]
+}

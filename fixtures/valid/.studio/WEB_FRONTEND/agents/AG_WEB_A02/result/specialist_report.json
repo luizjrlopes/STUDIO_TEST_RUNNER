@@ -1,0 +1,7 @@
+{
+  "agent_id": "AG_WEB_A02",
+  "operation_id": "analyze-ui",
+  "skill": "example-skill",
+  "status": "COMPLETED",
+  "evidence": []
+}

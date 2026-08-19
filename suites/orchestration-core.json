@@ -1,0 +1,37 @@
+{
+  "id": "orchestration-core",
+  "description": "Core structure, handoff and authority boundaries",
+  "assertions": [
+    {
+      "id": "studio-root",
+      "type": "path_exists",
+      "path": ".studio"
+    },
+    {
+      "id": "orchestration-area",
+      "type": "path_exists",
+      "path": ".studio/GENERAL_ORCHESTRATION"
+    },
+    {
+      "id": "frontend-area",
+      "type": "path_exists",
+      "path": ".studio/WEB_FRONTEND"
+    },
+    {
+      "id": "json-valid",
+      "type": "json_files_valid"
+    },
+    {
+      "id": "handoff-resolves",
+      "type": "handoff_targets_resolve"
+    },
+    {
+      "id": "specialist-write",
+      "type": "specialist_write_scope"
+    },
+    {
+      "id": "owner-boundaries",
+      "type": "owner_cross_area_write"
+    }
+  ]
+}

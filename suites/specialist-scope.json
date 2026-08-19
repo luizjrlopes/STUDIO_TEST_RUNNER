@@ -1,0 +1,14 @@
+{
+  "id": "specialist-scope",
+  "description": "Specialist can write only its own report inside .studio",
+  "assertions": [
+    {
+      "id": "json-valid",
+      "type": "json_files_valid"
+    },
+    {
+      "id": "specialist-write",
+      "type": "specialist_write_scope"
+    }
+  ]
+}

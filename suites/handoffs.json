@@ -1,0 +1,14 @@
+{
+  "id": "handoffs",
+  "description": "Handoff targets must resolve",
+  "assertions": [
+    {
+      "id": "json-valid",
+      "type": "json_files_valid"
+    },
+    {
+      "id": "handoff-resolves",
+      "type": "handoff_targets_resolve"
+    }
+  ]
+}
